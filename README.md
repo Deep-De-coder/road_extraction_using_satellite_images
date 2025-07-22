@@ -1,7 +1,5 @@
 # Road Extraction Using Satellite Images
 
-![Project Banner](images/banner.png)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Last Update](https://img.shields.io/badge/last%20update-2024--06--09-blue)]()
 
@@ -37,7 +35,7 @@ This project automates the extraction of road networks from satellite images usi
 │   └── Segmentation_models.ipynb
 ├── U_net.ipynb                  # U-Net model notebook
 ├── Model_Fusion.ipynb           # Model fusion notebook
-├── images/                      # Place your result images here for README
+├── images/                      # (Optional) Place your result images here
 ├── Report/
 │   └── 50544983_50538617_final_report.pdf
 ├── Video/
@@ -120,11 +118,7 @@ Example (in Jupyter):
 
 ## Results
 
-Below are sample results. To add your own, place images in the `images/` folder and update the table:
-
-| Input Image | Ground Truth | Predicted Mask |
-|-------------|-------------|----------------|
-| ![Input](images/input_example.png) | ![GT](images/ground_truth_example.png) | ![Pred](images/predicted_mask_example.png) |
+Below are sample results. You can add your own results or visualizations by updating this section as needed.
 
 ---
 
@@ -147,8 +141,7 @@ Below are sample results. To add your own, place images in the `images/` folder 
 
 ## Authors
 
-- *Your Name Here*
-- *Collaborator Name (if any)*
+- Deep Shahane
 
 ---
 
@@ -158,6 +151,4 @@ Below are sample results. To add your own, place images in the `images/` folder 
 - [DeepGlobe Road Extraction Challenge](https://deepglobe.org/challenge.html)
 - Any other relevant papers or resources
 
----
-
-*For best results, add your own project images to the `images/` folder and update the image links above. Replace all placeholders with your actual data and results for a polished presentation.* 
+--- 
