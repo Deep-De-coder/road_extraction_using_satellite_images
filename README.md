@@ -85,6 +85,22 @@ graph TD;
 
 ---
 
+### Pushing to GitHub: Personal Access Token Required
+
+> **Note:** GitHub no longer supports password authentication for git operations over HTTPS. You must use a [Personal Access Token (PAT)](https://github.com/settings/tokens) instead of your GitHub password.
+
+**How to push changes:**
+1. Generate a token at [GitHub Tokens Settings](https://github.com/settings/tokens) (classic).
+2. When prompted for a password during `git push`, paste your token instead of your GitHub password.
+3. (Optional) Cache your credentials to avoid entering the token every time:
+   ```sh
+   git config --global credential.helper manager
+   ```
+
+For more details, see the [GitHub documentation](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
+
+---
+
 ## Usage
 
 Open and run the notebooks in the `Code/` directory or the root:
