@@ -52,12 +52,12 @@ This project automates the extraction of road networks from satellite images usi
 ## Workflow
 
 ```mermaid
-graph TD;
-    A[Satellite Images] --> B[Preprocessing & Augmentation];
-    B --> C[Model Training (U-Net, Fusion)];
-    C --> D[Prediction];
-    D --> E[Post-processing];
-    E --> F[Road Network Output];
+graph TD
+    A[Satellite Images] --> B[Preprocessing & Augmentation]
+    B --> C[Model Training (U-Net, Fusion)]
+    C --> D[Prediction]
+    D --> E[Post-processing]
+    E --> F[Road Network Output]
 ```
 
 ---
